@@ -26,6 +26,11 @@ class Extension extends \Bolt\BaseExtension
 
     }
 
+    public function getName()
+    {
+        return "Twitter Button";
+    }
+
     public function initialize()
     {
 
