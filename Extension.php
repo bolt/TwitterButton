@@ -5,27 +5,6 @@ namespace Bolt\Extension\Bolt\TwitterButton;
 
 class Extension extends \Bolt\BaseExtension
 {
-
-    public function info()
-    {
-
-        $data = array(
-            'name' =>"Twitter Button",
-            'description' => "A small extension to add a 'Twitter button' to your site, ".
-                             "when using <code>{{ twitterbutton() }}</code> in your templates.",
-            'author' => "Bob den Otter",
-            'link' => "http://bolt.cm",
-            'version' => "1.1",
-            'type' => "Twig function",
-            'first_releasedate' => "2012-10-10",
-            'latest_releasedate' => "2013-01-27",
-            'allow_in_user_content' => true,
-        );
-
-        return $data;
-
-    }
-
     public function getName()
     {
         return "Twitter Button";
