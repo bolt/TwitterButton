@@ -1,7 +1,7 @@
 <?php
 // Twitter Button for Bolt, by Bob den Otter
 
-namespace TwitterButton;
+namespace Bolt\Extension\Bolt\TwitterButton;
 
 class Extension extends \Bolt\BaseExtension
 {
