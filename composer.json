@@ -1,6 +1,6 @@
 {
     "name": "bolt/TwitterButton",
-    "description": "",
+    "description": "A small extension to add a 'Twitter button' to your site, when using {{ twitterbutton() }} in your templates.",
     "type": "bolt-extension",
     "keywords": [],
     "require": {
