@@ -1,6 +1,6 @@
 {
-    "name": "bolt/TwitterButton",
-    "description": "",
+    "name": "bolt/twitterbutton",
+    "description": "A small extension to add a 'Twitter button' to your site, when using {{ twitterbutton() }} in your templates.",
     "type": "bolt-extension",
     "keywords": [],
     "require": {
@@ -18,12 +18,7 @@
             "init.php"
         ],
         "psr-4": {
-            "TwitterButton\\": ""
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.7.*"
+            "Bolt\\Extension\\Bolt\\TwitterButton\\": ""
         }
     }
 }
