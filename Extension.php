@@ -16,7 +16,7 @@ class Extension extends \Bolt\BaseExtension
         if (empty($this->config['via'])) {
             $this->config['via'] = "";
         }
-        if (!empty($this->config['count']) && $this->config['count']==false) {
+        if (isset($this->config['count']) && $this->config['count']==false) {
             $this->config['count'] = 'data-count="none"';
         } else {
             $this->config['count'] = '';

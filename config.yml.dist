@@ -9,3 +9,6 @@ language: en_US
 
 # Label
 label: Tweet
+
+# If you don't want to display the count, enable the following line:
+# count: false
